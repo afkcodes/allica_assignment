@@ -53,4 +53,6 @@ const ConfirmButton = ({
   );
 };
 
+ConfirmButton.displayName = 'ConfirmButton';
+
 export default ConfirmButton;

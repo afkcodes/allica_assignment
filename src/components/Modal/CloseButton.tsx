@@ -35,4 +35,6 @@ const CloseButton = ({ className, ...props }: CloseButtonProps) => {
   );
 };
 
+CloseButton.displayName = 'CloseButton';
+
 export default CloseButton;

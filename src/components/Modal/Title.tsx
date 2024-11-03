@@ -32,4 +32,6 @@ const Title = ({
   );
 };
 
+Title.displayName = 'Title';
+
 export default Title;

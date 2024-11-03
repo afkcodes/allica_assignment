@@ -48,4 +48,6 @@ const CancelButton = ({
   );
 };
 
+CancelButton.displayName = 'CancelButton';
+
 export default CancelButton;

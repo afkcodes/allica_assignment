@@ -28,4 +28,6 @@ const Body = ({ children, className, label, description }: BaseModalProps) => {
   );
 };
 
+Body.displayName = 'Body';
+
 export default Body;

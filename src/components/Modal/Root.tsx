@@ -51,4 +51,6 @@ const Root = ({
   );
 };
 
+Root.displayName = 'Root';
+
 export default Root;

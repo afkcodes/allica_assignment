@@ -27,4 +27,6 @@ const Eyebrow = ({ children, className, label, description }: BaseModalProps) =>
   );
 };
 
+Eyebrow.displayName = 'Eyebrow';
+
 export default Eyebrow;

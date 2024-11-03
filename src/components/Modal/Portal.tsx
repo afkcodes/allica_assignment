@@ -21,4 +21,6 @@ const Portal = ({ children }: BaseModalProps) => {
   );
 };
 
+Portal.displayName = 'Portal';
+
 export default Portal;

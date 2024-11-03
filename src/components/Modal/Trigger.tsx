@@ -49,4 +49,6 @@ const Trigger = ({
   );
 };
 
+Trigger.displayName = 'Trigger';
+
 export default Trigger;

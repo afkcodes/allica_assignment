@@ -47,4 +47,6 @@ const Content = ({
   );
 };
 
+Content.displayName = 'Content';
+
 export default Content;
