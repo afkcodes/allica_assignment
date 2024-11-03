@@ -15,15 +15,15 @@ describe('Button', () => {
     });
 
     it('renders with different variants', () => {
-      const { rerender } = render(<Button variant='primary'>Primary Button</Button>);
+      render(<Button variant='primary'>Primary Button</Button>);
       let button = screen.getByRole('button', { name: /primary button/i });
       expect(button).toHaveClass('bg-primary');
 
-      rerender(<Button variant='secondary'>Secondary Button</Button>);
+      render(<Button variant='secondary'>Secondary Button</Button>);
       button = screen.getByRole('button', { name: /secondary button/i });
       expect(button).toHaveClass('bg-white', 'text-primary', 'border-primary');
 
-      rerender(<Button variant='ghost'>Ghost Button</Button>);
+      render(<Button variant='ghost'>Ghost Button</Button>);
       button = screen.getByRole('button', { name: /ghost button/i });
       expect(button).toHaveClass('text-primary');
     });
