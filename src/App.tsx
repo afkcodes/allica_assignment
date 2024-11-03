@@ -10,7 +10,7 @@ function App() {
         <Button variant='secondary'>Secondary Button</Button>
         <Button variant='ghost'>Ghost Button</Button>
         <Button variant='primary' fullWidth>
-          Ghost Button
+          Full Width Button
         </Button>
       </div>
 

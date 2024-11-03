@@ -19,15 +19,15 @@ const Root = ({
   defaultOpen = false,
   onOpenChange,
 }: ModalRootProps) => {
-  const [uncontrolledOpen, setUncontrolledOpen] = useState(defaultOpen);
+  const [isOpen, setIsopen] = useState(defaultOpen);
   const isControlled = controlledOpen !== undefined;
 
-  const open = isControlled ? controlledOpen : uncontrolledOpen;
-  const setOpen = (newOpen: boolean) => {
+  const open = isControlled ? controlledOpen : isOpen;
+  const setOpen = (isOpen: boolean) => {
     if (!isControlled) {
-      setUncontrolledOpen(newOpen);
+      setIsopen(isOpen);
     }
-    onOpenChange?.(newOpen);
+    onOpenChange?.(isOpen);
   };
 
   useEffect(() => {
