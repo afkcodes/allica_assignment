@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 47 96 241;
+  --color-primary-hover: 29 70 192;
+  --color-primary-active: 14 35 96;
+  --color-secondary-hover: 233 238 254;
+  --color-secondary-active: 211 222 252;
+  --color-accent-diabled-bg: 204 210 220;
+  --color-accent-diabled-fg: 128 144 167;
+}
