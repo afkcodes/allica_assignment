@@ -36,6 +36,17 @@ const buttonVariants = cva(
   }
 );
 
+/**
+ * Button Component
+ * Variants: primary|secondary|ghost
+ *
+ * ```
+ * <Button variant="primary" onClick={()=>{}}>
+ *   Click me
+ * </Button>
+ * ```
+ */
+
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant, size, fullWidth, ...props }, ref) => {
     return (

@@ -4,8 +4,8 @@ import { ModalContext } from './ModalContext';
 
 /**
  * Modal Root component - Manages modal state and context
- * @example
- * ```tsx
+ *
+ * ```
  * <Modal.Root>
  *   <Modal.Trigger>Open</Modal.Trigger>
  *   <Modal.Content>Content</Modal.Content>
