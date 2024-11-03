@@ -1,4 +1,4 @@
-# Allica Bank Design Assignment
+# Allica Bank Design System Assignment
 
 ## Components
 
@@ -9,6 +9,7 @@
 
 - React
 - Vite
+- TailwindCSS
 - StoryBook
 - React Testing Library
 - Vitest
